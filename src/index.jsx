@@ -1,15 +1,4 @@
-import React from 'react';
+import {render} from 'react-dom';
 import { App } from './App'
-/*
-function App() {
-    return <h1>Hello World</h1>
 
-}
-*/
-/*
-const user = {
-    name: 'Roberto',
-}
-
-console.log(user.address?.streetyar)
-*/
+render(<App />, document.getElementById('root'))
